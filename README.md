@@ -19,7 +19,10 @@ A **session string** is a secure login token that allows bots or scripts to acce
 ```bash
 pkg update && pkg upgrade
 pkg install python git -y
-pip install pyrogram tgcrypto
+git clone https://github.com/ceo-developer/StringSession.git
+cd StringSession
+pip3 install -r requirements.txt
+python3 string.py
 ```
 
 ### Pydroid 3 Users:
